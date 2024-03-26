@@ -1,0 +1,15 @@
+org_name: nullstone
+name: aws-eventbus-scheduling
+friendly_name: AWS EventBus Scheduling
+description: Capability that injects the required env variables for an app to create schedules
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: eventbus
+subplatform: eventbridge
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: true
