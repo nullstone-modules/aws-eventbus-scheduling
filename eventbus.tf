@@ -8,7 +8,7 @@ locals {
   eventbus_name        = data.ns_connection.eventbus.outputs.eventbus_name
   scheduler_group_name = data.ns_connection.eventbus.outputs.scheduler_group_name
   scheduler_role_arn   = data.ns_connection.eventbus.outputs.scheduler_role_arn
-  scheduler_role_name  = data.ns_connection.enventbus.outputs.scheduler_role_name
+  scheduler_role_name  = data.ns_connection.eventbus.outputs.scheduler_role_name
 }
 
 data "aws_iam_role" "scheduler_role" {
