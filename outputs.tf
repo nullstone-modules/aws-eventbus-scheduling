@@ -12,9 +12,5 @@ output "env" {
       name  = "EVENTBUS_SCHEDULER_GROUP_NAME"
       value = local.scheduler_group_name
     },
-    {
-      name  = "EVENTBUS_SCHEDULER_ROLE_ARN"
-      value = local.scheduler_role_arn
-    },
   ]
 }
