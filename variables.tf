@@ -7,3 +7,7 @@ EOF
   type    = map(string)
   default = {}
 }
+
+locals {
+  role_name = var.app_metadata["role_name"]
+}
